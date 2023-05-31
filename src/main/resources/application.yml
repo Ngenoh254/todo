@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url:
+    username: felix
+    password: fk
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#server
+
+server:
+  port: 8080
+
+# Thymeleaf configuration (optional)
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+
+# Logging configuration
+logging:
+  level:
+    root: info
+    org.springframework: warn
+    com.example.todo: debug
+
