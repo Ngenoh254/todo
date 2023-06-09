@@ -1,6 +1,7 @@
 package com.example.todolist.registration;
 
 
+import com.example.todolist.security.PasswordEncoder;
 import com.example.todolist.user.User;
 import com.example.todolist.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

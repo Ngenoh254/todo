@@ -20,7 +20,7 @@ public class Task {
     private LocalDateTime dueDate;
     private boolean completed;
 
-    // Constructors, getters, and setters
+
 
     public Task() {
     }
@@ -32,7 +32,6 @@ public class Task {
         this.completed = false;
     }
 
-    // Getters and Setters (Omitted for brevity)
 
     public Long getId() {
         return id;
